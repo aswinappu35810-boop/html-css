@@ -13,7 +13,7 @@ body{
     letter-spacing: 5px;
 } */
 
-.container h2,h3{
+/* .container h2,h3{
     color: rgb(255, 0, 0);
     font-size: 15px;
     margin-left: 20px;
@@ -23,8 +23,8 @@ body{
     letter-spacing: 5px;
     text-align: center;
     margin-top: 20px;
-}
-/* #container2 p{
+} */
+#container2 p{
     color: blue;
     font-size: 10px;
     font-weight: 900;
@@ -37,4 +37,4 @@ body{
     font-size: 20px;
     padding: 20px;
     margin-top: 10px;
-} */
+}
