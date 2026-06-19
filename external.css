@@ -1,17 +1,40 @@
 body{
-    background-color: gray;
+    background-color: rgb(214, 255, 209);
 }
 *{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-h1{
+/* h1{
     color: rgb(255, 255, 255);
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 30px;
     text-align: center;
-    /* padding: 20px;
-    background-color: aqua; */
     letter-spacing: 5px;
+} */
+
+.container h2,h3{
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    margin-left: 20px;
 }
+.navbar{
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* #container2 p{
+    color: blue;
+    font-size: 10px;
+    font-weight: 900;
+    padding: 20px;
+    margin-bottom: 10px
+    ;
+}
+#details{
+    color: rgb(73, 73, 73);
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 10px;
+} */
