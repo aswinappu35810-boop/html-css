@@ -59,11 +59,21 @@
         .container:hover{
             border: 2px solid var(--bgc);
         }
+        #hover-word{
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        #hover-word:hover{
+            color: blue;
+            text-shadow: 0 0 10px rgba(52, 201, 255, 0.7);
+        }
 
     </style>
 </head>
 <body>
-    <h1>The Represtaion Of Hovering Effect</h1>
+    <h1>The Represtaion Of <span  id="hover-word">Hovering</span> Effect</h1>
     <div class="container">
      <form action="#">
         <button class="btn1">Click</button>
