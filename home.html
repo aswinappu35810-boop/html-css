@@ -15,16 +15,33 @@
             margin: 0;
             padding:0;
         }
-        .navbar{
+        /* .navbar{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            align-items: center;
+            padding: 0 30px;
             width: 100%;
             height: 50px;
             background-color: var(--bgcolorheader);
             padding-top: 20px;
             font-family: var(--ff);
+        } */
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 40px;
+            height: 70px;
+            background-color: var(--bgcolorheader);
+            font-family: var(--ff);
         }
+
+        .navbar-link{
+            display: flex;
+            gap: 30px;
+        }
+
         .header{
             color: #824C59;
             cursor: pointer;
@@ -81,9 +98,12 @@
 <body>
     <div class="navbar">
         <h3 class="header">PROFILE</h3>
-        <p class="header">HOME</p>
-        <p class="header">ABOUT</p>
-        <p class="header">CONTACT</p>
+        <div class="navbar-link">
+
+            <p class="header">HOME</p>
+            <p class="header">ABOUT</p>
+            <p class="header">CONTACT</p>
+        </div>
         <!-- icon -->
         <i class="fa-brands fa-github"></i>   <!-- GitHub -->
     </div>
