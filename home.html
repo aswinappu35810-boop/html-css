@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
@@ -23,6 +24,25 @@
             background-color: var(--bgcolorheader);
             padding-top: 20px;
             font-family: var(--ff);
+        }
+        .header{
+            color: #824C59;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .header:hover{
+            color: black;
+            transform: scale(1.2);
+        }
+        .navbar i{
+            font-size: 24px;
+            cursor: pointer;
+            transition: 0.3s;
+            color: #824C59;
+        }
+        .navbar i:hover{
+            color:black ;
+            transform: scale(1.2);
         }
         .container{
             position:relative;
@@ -60,12 +80,12 @@
 </head>
 <body>
     <div class="navbar">
-        <h3>PROFILE</h3>
-        <p style="color: #824C59;">HOME</p>
-        <p style="color: #824C59;">ABOUT</p>
-        <p style="color: #824C59;">CONTACT</p>
+        <h3 class="header">PROFILE</h3>
+        <p class="header">HOME</p>
+        <p class="header">ABOUT</p>
+        <p class="header">CONTACT</p>
         <!-- icon -->
-
+        <i class="fa-brands fa-github"></i>   <!-- GitHub -->
     </div>
     <div class="container">
         <img src="anya-chernykh-QTmfD42FrDg-unsplash.jpg" alt="background image">
