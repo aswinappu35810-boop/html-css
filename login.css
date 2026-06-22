@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 70px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.headercontent{
+    display: flex;
+    gap: 30px;
+}
+
+.header p{
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header p:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
+.header i{
+    font-size: 24px;
+    color: #0064E0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header i:hover{
+    transform: scale(1.2);
+}
+
+/* Login Card */
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1{
+    margin-bottom: 20px;
+}
+
+/* Login text section */
+
+.continput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Circle icon */
+
+.circle{
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.circle:hover{
+    background-color: #cfd2d6;
+}
+
+/* Form */
+
+#inputbox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Inputs */
+
+#inputbox input{
+    width: 400px;
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    font-size: 16px;
+}
+
+#inputbox input:focus{
+    outline: none;
+    border-color: #1877f2;
+}
+
+/* Buttons */
+
+.login{
+    width: 400px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #166fe5;
+}
+
+.forgot{
+    width: 400px;
+    padding: 12px;
+
+    border: 1px solid #0064E0;
+    border-radius: 8px;
+    background: none;
+
+    color: #1877f2;
+    cursor: pointer;
+}
+
+.signup{
+    width: 220px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.signup:hover{
+    background-color: #36a420;
+}
+
+/* Meta section */
+
+.continput:last-child{
+    margin-top: 20px;
+}
+
+.fa-meta{
+    font-size: 24px;
+    color: #0064E0;
+}
