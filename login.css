@@ -189,3 +189,20 @@ body{
     font-size: 24px;
     color: #0064E0;
 }
+.input-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-row i{
+    font-size: 20px;
+    color: gray;
+}
+
+.eandn{
+    width: 390px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
