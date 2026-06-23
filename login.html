@@ -13,7 +13,7 @@
     <div class="headercontent">
         <p><i class="fa-solid fa-house"></i> Home</p>
         <p><i class="fa-solid fa-circle-info"></i> About</p>
-        <p><i class="fa-solid fa-phone"></i> Contact</p>
+        <p>contact us</p>
     </div>
     <!-- icon -->
      <i class="fa-brands fa-facebook"></i>
@@ -25,13 +25,17 @@
         <p>Login to face book</p>
     </div>
     <form action="#" id="inputbox">
-        <input type="text"
-        name="contact"
-        class="eandn"
-        placeholder="Enter email or phone number"
-        pattern="(^[0-9]{10}$)|(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)"
-        title="Enter a valid 10-digit phone number or email address" 
-        required>
+        <div class="input-group">
+            <i class="fa-solid fa-user"></i>
+
+            <input type="text"
+            name="contact"
+            class="eandn"
+            placeholder="Enter email or phone number"
+            pattern="(^[0-9]{10}$)|(^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$)"
+            title="Enter a valid 10-digit phone number or email address"
+            required>
+        </div>
         <input type="password" class="password" placeholder="passwor" required>
         <button type="submit" class="login">Login</button>
         <button class="forgot">Forgotten Password?</button>
