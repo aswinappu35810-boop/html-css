@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: rgb(237, 235, 235);
+}
+.container1{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: transparent;
+}
+.container2{
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: transparent;
+}
+.orange-line{
+    width: 300px;
+    height: 7px;
+    background-color: orange;
+    margin-top: 100px;
+    border-radius: 200px;
+}
+.green-line{
+    width: 300px;
+    height: 7px;
+    background-color: rgb(17, 255, 0);
+    margin-top: 100px;
+    border-radius: 200px;
+}
+.cards1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 280;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+    border-radius: 8px;
+    img{
+        width: 279px;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 8px;
+
+    }
+}
+.cards2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 280;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    margin-top:20px;
+    border-radius: 8px;
+    img{
+        width: 279px;
+        height: 200px;
+        margin-top: 10px;
+        border-radius: 8px;
+
+    }
+}
+.cards1{
+    position: relative;
+}
+.active1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 70px;
+    left: 6%;
+    top: 4%;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.active2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 35, 35);
+    border-radius: 70px;
+    left: 6%;
+    top: 4%;
+    font-weight: lighter;
+    font-size: 14px;
+}
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 15px;
+    background-color: green;
+    margin-left: 2px;
+}
+.circle{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    right: 6%;
+    top: 35%;
+}
+.round{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    right: 6%;
+    top: 43%;
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    img{
+        margin-bottom: 11px;
+        width: 15px;
+        height: 15px;
+    }
+}
+.circle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 30px;
+    img{
+        margin-bottom: 8px;
+        width: 15px;
+        height: 15px;
+    }
+}
+.round1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.498);
+    border-radius: 30px;
+    img{
+        margin-bottom: 11px;
+        width: 15px;
+        height: 15px;
+    }
+}
+.round2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 30px;
+    img{
+        margin-bottom: 8px;
+        width: 15px;
+        height: 15px;
+    }
+}
+/* ---------- Property Details ---------- */
+
+.container-content{
+    width: 250px;
+    margin-top: 15px;
+}
+
+.kerraloft,
+.property-price,
+.bedrooms,
+.bathrooms,
+.square,
+.parking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c2c2c;
+}
+.text1 {
+    font-size:12px;
+    font-weight: 400;
+    color: #777;
+    
+}
+
+/* ---------- Bottom Section ---------- */
+
+.three-box{
+    margin-top: 11px;
+    padding-top: 11px;
+    padding-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tokenprice,
+.projected-irr,
+.projecte{
+    flex: 1;
+    text-align: center;
+}
+
+.tokenprice p,
+.projected-irr p,
+.projecte p{
+    font-size: 11px;
+    color: #9b9b9b;
+    margin-bottom: 5px;
+}
+
+.tokenprice h3,
+.projected-irr h3,
+.projecte h3{
+    font-size: 20px;
+    color: #222;
+}
+
+.line{
+    width: 1px;
+    height: 38px;
+    background: #e5e5e5;
+}
+
+/* the user based design */
