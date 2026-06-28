@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 140vh;
+    background: #F1FAEC;
+    background: radial-gradient(circle, rgba(241, 250, 236, 1) 2%, rgba(244, 243, 223, 1) 75%, rgba(246, 228, 214, 1) 100%);
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 780px;
+    height: 820px;
+    border-radius: 30px;
+    margin-top: 70px;
+    border: 5px solid white;
+    background:radial-gradient(circle at top left,
+            rgba(252, 242, 161, 0.5),
+            transparent 80%),
+
+    
+            radial-gradient(circle at top right,
+            rgba(180, 255, 240, 0.5),
+            transparent 80%),
+
+            
+            #fcfbf7;;
+    border:10px solid rgb(255, 255, 255);
+}
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+}
+.donut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-style: normal;
+    color: #E64F1C;
+    font-size: 16px;
+    margin-left: 100px;
+    img{
+        width: 18px;
+        height: 18px;
+        margin-bottom: 2px;
+    }
+}
+.navbar-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    height: 70px;
+    gap: 20px;
+    margin-left: 30px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 120px;
+    height: 8px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 100px;
+    margin-bottom: 0px;
+    margin-right: 80px;
+    gap: 3px;
+    input{
+        width: 50px;
+        height: 10px;
+        outline: none;
+        border: none;
+        color: #7e7e7e;
+    }
+}
+.search-bar img{
+    width: 20px;
+    height: 20px;
+}
+hr{
+    height: 15px;
+    width: 1px;
+    border: none;
+    background-color: #d4d4d4;
+
+}
+.dot{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: #E64F1C;
+    left: 37%;
+    bottom: 23px;
+}
+.content1{
+    display: flex;
+    
+}
