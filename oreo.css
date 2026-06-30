@@ -338,7 +338,6 @@
 }
 
 
-/* Grid */
 
 .boxes{
     width: 1180px;
@@ -350,7 +349,6 @@
     gap: 26px;
 }
 
-/* Card */
 
 .box1,
 .box2,
@@ -378,7 +376,6 @@
     border-color:#2f6fff;
 }
 
-/* Icon */
 
 .lock,
 .trend,
@@ -403,7 +400,6 @@
     object-fit:contain;
 }
 
-/* Text */
 
 .box-text{
     text-align:center;
