@@ -9,6 +9,10 @@
         height: 100%;    
     }
     
+
+    body{
+        overflow-x: hidden;
+    }
 .container{
     display: flex;
     position: relative;
